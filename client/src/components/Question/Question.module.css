@@ -1,0 +1,22 @@
+.label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: purple;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 10rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: ease-in-out 200ms;
+}
+
+.button:hover {
+  background-color: white;
+  border: 2px solid purple;
+  color: purple;
+}
